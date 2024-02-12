@@ -14,6 +14,10 @@ public class Sorter {
             array[j + 1] = key;
         }
     }
+    // Method to sort an array using insertion sort
+    public static void sort(int[] array) {
+        insertionSort(array);
+    }
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
