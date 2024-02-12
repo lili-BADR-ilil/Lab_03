@@ -15,9 +15,10 @@ public class Sorter {
         }
     }
     // Method to sort an array using insertion sort
-    public static void sort(int[] array) {
+    public static void sort1(int[] array) {
         insertionSort(array);
     }
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
@@ -42,7 +43,7 @@ public class Sorter {
         }
     }
 
-    public static void sort(int[] array) {
+    public static void sort2(int[] array) {
         selectionSort(array);
     }
 }
