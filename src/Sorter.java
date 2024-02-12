@@ -22,4 +22,8 @@ public class Sorter {
             arr[i] = temp;
         }
     }
+
+    public static void sort(int[] array) {
+        selectionSort(array);
+    }
 }
